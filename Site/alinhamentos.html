@@ -1,0 +1,65 @@
+<html>
+<head>
+<link rel="stylesheet" href="paginas.css" type="text/css">
+<title>HBB</title>
+</head>
+<body>
+<div class="fundo">
+<header>
+    <h1>Alinhamentos</h1>
+	<nav>
+        <a href="Site.html" class="button">Página Inicial</a>
+		<a href="uc.html" class="button">Informações</a>
+        <a href="gene.html" class="button">Gene</a>
+        <a href="proteina.html" class="button">Proteína</a>
+        <a href="arvore.html" class="button">Árvores Filogenéticas</a>
+		<a href="referencias.html" class="button">Referências</a>
+	</nav>
+</header>
+    <main>
+        <div class="content">
+		<div class="texto">
+		  <p><h3>Alinhamento e Conservação de Sequências Múltiplas</h3></p>
+		  <p>Usando as sequências homólogas encontradas, utilizamos o Clustal Omega para o alinhamento.</p>
+		  <p><h4><u>Legenda</u></h4>
+		  <pre>(*) resíduos idênticos;
+(:) resíduos similares, mesmo aminoácido, mas com propriedades químicas diferentes;
+( ) resíduos todos diferentes;
+(.) resíduos parcialmente semelhantes, havendo semelhanças biológicas e funcionais.</pre></p>
+		  <img src="alinhamento_2.png" style = "margin-top: 30px">
+		  <img src="alinhamento_1.png" align = "right">
+		  <p style = "margin-top: 60px"><h3>Análise do Alinhamento e Conservação das Sequências Homólogas</h3></p>
+		  <p>Analisando as posições do alinhamento, verificamos que existem algumas com a mesma cor e outras onde esta é variável. Isso indica que, no primeiro caso, os aminoácidos são altamente conservados, o que sugere uma importância funcional (ex.: transporte de oxigénio) e estrutural (ex.: manterem as mesmas estruturas secundárias e terciárias). No segundo caso, existe variabilidade entre as sequências proteicas, ou seja, houve adaptações especificas a diferentes ambientes ou funções biológicas. É importante saber que a função e a estrutura apresentam uma correlação, ou seja, influenciam-se mutuamente.</p>
+		  <p style = "margin-top: 20px">Um exemplo:</p>
+		  <p>As sequências XP_018891709.1 e XP_002822173.1 são idênticas na maioria das posições, sugerindo uma relação evolutiva próxima. E as XP_033062959.1 e XP_010361646.1 também mostram alta similaridade, indicando que esses organismos divergiram de mesmo ancestral comum.</p>
+		  <p><h4><u>Primeira região (1-60)</u></h4>
+		  <p>Nesta região existem bastantes conservações. Contudo, com divergências pontuais. Por exemplo, a primeira sequência (XP_032096415.1) apresenta um resíduo inicial diferente quando comparada com as outras.</p>
+		  <p><pre>XP_032096415.1:
+"MVHLTAEEKSAVTTLWGKVNVDEVGGEALGRLLVVYPWTQRFFDSFGDLSTPDAVMNNPK"</pre></p>
+		  <p><pre>Outras vezes:
+"MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK"</pre></p>
+		  <p><h4><u>Segunda Região (61-120)</u></h4>
+		  <p>As variações que ocorrem nesta região são quase não notórias. Temos o exemplo, da zona que engloba estes aminoácidos “AHLDNLKGTF", apesar desta ser a sequência da maioria, existem algumas sequências proteicas que iniciam com “THL” ou “NHL”.</p>
+		  <p><h4><u>Terceira Região (121-146/147)</u></h4>
+		  <p>Outra região com elevada conservação. A principal diferença é algumas sequências terminarem com “HKY” e outras com “HKYH”.</p>
+		  <p style = "margin-top: 60px"><h3>Alinhamento e Conservação com outras Sequências</h3></p>
+		  <p>Ao analisar, utilizando o Genome Browser, o exemplo dos alinhamentos com 100 vertebrados, verificamos que se mantêm muitas sequências conservadas. Tal, pode ser verificado pelos picos positivos elevados observados na figura abaixo. Os picos negativos (rosa/vermelho) são zonas menos conservadas do que o normal e muito variáveis.</p>
+		  <img src="alinhamento_4.png">
+		</div>  	
+		</div>
+    </main>
+
+</div>
+<footer>
+    <div class="footer-left">
+        <p>Projeto Lab_Bioinformática</p>
+    </div>
+	<div class="footer-middle">
+		<p>2023/2024</p>
+	</div>
+    <div class="footer-right">
+        <p>Adriana Oliveira; Lara Gonçalves; Leonor Ribeiro</p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.cover {
+  background-image: url(bioinformatica_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 30px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0059b3;
+  transition: background-color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #0000FF;
+}
+
+.logo-universidade {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 200px; 
+  height: auto; 
+}
+

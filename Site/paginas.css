@@ -1,0 +1,120 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-right: 50px;
+}
+
+.texto {
+  font-family: "Arial";
+  font-size: 15px;
+  color: darkblue;
+  line-height: 1.5;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img {
+  height: auto;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.button:hover {
+  background-color: #004080;
+}
+
+.fundo {
+  background-color: #76bdd5;
+  min-height: 100%;
+  width: 100%; 
+}
+
+nav {
+  margin-top: 10px;
+}
+
+header {
+  background-image: url('bioinformatica_5.jpg');
+  color: white;
+  padding: 20px;
+  position: relative; 
+}
+
+main {
+  padding: 20px;
+  margin-right: 0px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+
+h2 {
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;	
+  color: white;
+}
+
+#button-container {
+  position: fixed;
+  top: 171px;
+  right: 0;
+  padding: 10px; 
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#button-container .button {
+  display: block; 
+  text-align: center;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1; 
+}
+
+.footer-right {
+    text-align: right; 
+}
+.footer-middle {
+	text-align: center;
+}
+.footer-left p,
+.footer-right p {
+    margin: 0; 
+}
+
+a{
+	color: darkblue;
+}
