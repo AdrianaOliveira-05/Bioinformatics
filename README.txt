@@ -1,0 +1,1 @@
+Para visualizar o site é necessário ter a pasta "Site" descarregada. Em seguida, deve ser apenas aberto o ficheiro "Site.html". 
